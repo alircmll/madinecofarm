@@ -1,0 +1,22 @@
+#about{
+  height: 80vh;
+
+}
+
+.container-about{
+  height: 80vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-about{
+  color: black;
+  margin-bottom: 20px;
+}
+
+.text-about{
+  text-align: center;
+}

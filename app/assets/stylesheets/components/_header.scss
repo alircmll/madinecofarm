@@ -1,0 +1,42 @@
+
+.img-header{
+  display: flex;
+  justify-content: center;
+  height:100vh;
+  // background-color: red;
+  background-image: image_url('hen.jpg');
+   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+
+
+#title{
+    color: #fff;
+    font-size: 64px;
+    font-family:"Roboto", serif, sans-serif;
+}
+
+#mid-title{
+  color: #fff;
+  font-family:'Courgette', sans-serif;
+  font-size: 48px;
+}
+
+.first-w{
+ margin-right: 60px;
+
+
+}
+
+.last-w{
+  margin-left: 60px;
+}
