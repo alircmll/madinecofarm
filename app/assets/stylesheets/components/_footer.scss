@@ -1,0 +1,22 @@
+footer {
+    padding: 25px 0;
+    // text-align: center;
+    background-color: #373D20;
+    border-top: 3px solid white;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+.container-social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

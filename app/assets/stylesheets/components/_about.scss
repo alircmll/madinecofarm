@@ -5,7 +5,7 @@
 
 .container-about{
   height: 80vh;
-  width: 50%;
+  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 .title-about{
-  color: black;
+  color: $darkGrey;
   margin-bottom: 20px;
 }
 

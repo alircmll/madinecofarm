@@ -7,7 +7,7 @@
       <div class="mid-w">
         <h3 id="mid-title">eco</h3>
       </div>
-      <div class="last-w">
+      <div class="last-w wow swing" data-wow-duration="3s">
         <h1 id="title">Farm</h1>
       </div>
     </div>
@@ -16,10 +16,10 @@
 
 <section id="about">
   <div class="container container-about">
-    <div class="title-about">
+    <div class="title-about wow fadeInLeftBig">
       <h1>Qu'est-ce que c'est ?</h1>
     </div>
-    <div class="text-about">
+    <div class="text-about wow fadeInLeftBig">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate, culpa iste voluptatem minima, corporis natus aliquam aut dolorem repellat alias, laborum voluptatum mollitia est illo saepe! Eligendi, officia animi!
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ducimus doloribus soluta necessitatibus fugiat reprehenderit, a distinctio facilis labore recusandae optio quis iusto itaque provident sint nam cumque aliquid, dignissimos.
@@ -32,15 +32,15 @@
 <section id="product">
   <div class="container container-product">
     <div class="row">
-      <div class="col-md">
+      <div class="col-md wow fadeInDown" data-wow-duration="1s">
         <h1>One</h1>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam labore, dolorum totam vitae laudantium explicabo ipsam, unde repellendus molestias necessitatibus voluptates, quaerat ea quas iste. Suscipit, provident. Voluptatem, neque, inventore!
       </div>
-      <div class="col-md">
+      <div class="col-md wow fadeInDown" data-wow-duration="2s">
       <h1>two</h2>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos accusamus, vitae accusantium corporis praesentium error provident voluptatem culpa, recusandae sit dolores quo inventore esse placeat maiores consectetur rem necessitatibus mollitia.
       </div>
-      <div class="col-md">
+      <div class="col-md wow fadeInDown" data-wow-duration="3s">
       <h1>three</h3>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut fuga dolore, dolorem sit soluta atque. Consequatur quod adipisci quae perferendis voluptatem, impedit, est culpa incidunt eos vitae quis obcaecati accusamus.
       </div>
@@ -49,25 +49,25 @@
 </section>
 
 <section id="coming">
-  <div class="container container-coming">
-    <div class="title-coming">
+  <div class="container container-coming" >
+    <div class="title-coming wow fadeInDown" data-wow-duration="1s">
       <h1>Prochainement...</h1>
     </div>
-    <div class="text-coming">
+    <div class="text-coming wow fadeInDown" data-wow-duration="2s">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis a, nemo error iusto nesciunt cum ducimus eligendi iste ut debitis dolorem praesentium voluptatum quidem minima non aliquam voluptates provident odio.</p>
     </div>
   </div>
 </section>
 
 <section id="contact">
-  <div class="container">
+  <div class="container container-contact">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Contact</h2>
+        <h1 class="section-heading">Contact</h1>
       </div>
     </div>
 
-    <div id="container-contact">
+    <div id="container-form">
       <div class="row">
         <div class="col-lg-12">
           <form name="sentMessage" id="my-form" novalidate="" action="https://formspree.io/xqkbldwe" method="POST">
@@ -97,24 +97,8 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center" style="height: 147px";>
                 <div id="success"></div>
-                <!-- <button id="my-form-button" class="mail-btn" type="submit">Envoyer</button> -->
                 <p id="my-form-status"></p>
-                <button id="my-form-button" type="submit" class="egg-btn">
-                  <label class="egg-switch">
-                    <input type="checkbox" checked>
-                    <div>
-                        <div class="flipper">
-                            <svg>
-                                <use xlink:href="#flipper">
-                            </svg>
-                        </div>
-                        <div class="egg">
-                            <div class="front"></div>
-                            <div class="back"></div>
-                        </div>
-                    </div>
-                  </label>
-               </button>
+                <button id="my-form-button" class="mail-btn" type="submit">Envoyer</button>
               </div>
             </div>
           </form>
@@ -122,5 +106,5 @@
       </div>
     </div>
   </div>
-  <%= render"shared/btn" %>
 </section>
+   <%= render 'shared/footer' %>
