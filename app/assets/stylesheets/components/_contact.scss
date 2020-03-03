@@ -1,15 +1,19 @@
 #contact{
+  padding-top: 10vh;
   height:100vh;
   background-image: image_url('leef.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .container-contact{
   height:100vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +27,7 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 section#contact .form-group input.form-control {
@@ -74,7 +78,7 @@ section#contact .text-danger {
 }
 
 .section-heading{
-  margin-bottom: 90px;
+  margin-bottom: 40px;
 }
 
 .row{
